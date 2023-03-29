@@ -1,0 +1,5 @@
+mutation updateRide($id: Int!, $input: RideInput!) {
+  updateRide(id: $id, input: $input) {
+    ...Ride_Data
+  }
+}

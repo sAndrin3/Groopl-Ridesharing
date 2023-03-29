@@ -1,0 +1,18 @@
+fragment Ride_Data on Ride {
+  id
+  to
+  from
+  when
+  seats
+  remainingSeats
+  creator {
+    id
+    username
+    contact
+    car_plate
+  }
+  passengers
+  creatorId
+  createdAt
+  updatedAt
+}

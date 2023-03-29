@@ -1,0 +1,8 @@
+fragment Message_Data on Message {
+  id
+  sender_id
+  receiver_id
+  text
+  is_read
+  createdAt
+}
